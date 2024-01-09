@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Nesa's Personal Page</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-light py-3 fixed-top">
+        <div class="container">
+             <a href="https://www.nesa.ir" class="navbar-brand">Nesa's Personal Page</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+       <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#lesson" class="nav-link">آموزشها</a>
+            </li>
+            <li class="nav-item">
+                <a href="#aboutme" class="nav-link">درباره من</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contantme" class="nav-link">تماس با من</a>
+            </li>                        
+        </ul>
+       </div>
+    </div>
+    </nav>
+    <section class="bg-light text-center text-sm-start p-5 p-lg-0 pt-lg-2">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between ">
+                <div>
+                    <h1 class="display-6">سلام! من نسا هستم.</h1>
+                    <div class="h1">
+                        <span class="text-warning">دانشجوی مهندسی کامپیوتر و علاقه‌مند به توسعه وب و WordPress</span>
+                        <br>
+                    </div>
+                    <p class="lead">
+                        در حال یادگیری و به‌روزرسانی مهارت‌های خود در دنیای تکنولوژی هستم. همراه من باشید تا از تجربیاتم بهره‌مند شوید.
+                    </p>
+                    <button class="btn btn-primary btn-lg">دوره های آموزشی</button>
+                </div>
+                <img src="./images/home.JPG" class="img-fluid w-50 d-none d-sm-block" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="aboutme" class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="./images/aboutme.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md">
+                    <h2>درباره من</h2>
+                    <p class="lead">سلام، من نسا هستم، دانشجوی ۲۳ ساله مهندسی کامپیوتر در دانشگاه کردستان، علاقمند به توسعه وب و در حال یادگیری WordPress.</p>
+                    <p>
+                        در طول تحصیلاتم، توانستم با یادگیری مفاهیم Wireshark به درک بهتری از امنیت شبکه دست پیدا کنم. هنوز پروژه‌های تمام شده‌ای برای نمایش ندارم، اما در حال تلاش برای گسترش دانش و افزودن پروژه‌های بیشتر به پروفایل خود هستم.
+                    </p>
+                    <a href="#" class="btn btn-light btn-lg mt-3">
+                        <i class="bi bi-chevron-left"></i> بیشتر بخوانید
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Wireshark Basics Section -->
+    <section class="p-5" id="lesson">
+        <div class="container">
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <div class="card bg-primary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <i class="bi bi-laptop"></i>
+                                <h3>مفاهیم پایه Wireshark</h3>
+                            </div>
+                            <p class="card-text">
+                                در این مجموعه آموزش، با مفاهیم پایه Wireshark و کاربردهای آن در تحلیل ترافیک شبکه آشنا می‌شوید.
+                            </p>
+                            <a href="#" class="btn btn-warning">مشاهده</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-warning text-dark">
+                        <div class="card-body text-center">
+                            <div class="h1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-wordpress" viewBox="0 0 16 16">
+                                    <path d="M12.633 7.653c0-.848-.305-1.435-.566-1.892l-.08-.13c-.317-.51-.594-.958-.594-1.48 0-.63.478-1.218 1.152-1.218q.03 0 .058.003l.031.003A6.84 6.84 0 0 0 8 1.137 6.86 6.86 0 0 0 2.266 4.23c.16.005.313.009.442.009.717 0 1.828-.087 1.828-.087.37-.022.414.521.044.565 0 0-.371.044-.785.065l2.5 7.434 1.5-4.506-1.07-2.929c-.369-.022-.719-.065-.719-.065-.37-.022-.326-.588.043-.566 0 0 1.134.087 1.808.087.718 0 1.83-.087 1.83-.087.37-.022.413.522.043.566 0 0-.372.043-.785.065l2.48 7.377.684-2.287.054-.173c.27-.86.469-1.495.469-2.046zM1.137 8a6.86 6.86 0 0 0 3.868 6.176L1.73 5.206A6.8 6.8 0 0 0 1.137 8"/>
+                                    <path d="M6.061 14.583 8.121 8.6l2.109 5.78q.02.05.049.094a6.85 6.85 0 0 1-4.218.109m7.96-9.876q.046.328.047.706c0 .696-.13 1.479-.522 2.458l-2.096 6.06a6.86 6.86 0 0 0 2.572-9.224z"/>
+                                    <path fill-rule="evenodd" d="M0 8c0-4.411 3.589-8 8-8s8 3.589 8 8-3.59 8-8 8-8-3.589-8-8m.367 0c0 4.209 3.424 7.633 7.633 7.633S15.632 12.209 15.632 8C15.632 3.79 12.208.367 8 .367 3.79.367.367 3.79.367 8"/>
+                                  </svg>
+                            </div>
+                            <h3>مفاهیم پایه WordPress</h3>
+                            <p class="card-text">
+                                    در این مجموعه آموزش، با مفاهیم پایه WordPress و کاربردهای آن در ایجاد وبسایت‌های دینامیک آشنا می‌شوید.
+                            </p>
+                            <a href="#" class="btn btn-primary">مشاهده</a>
+                        </div>
+                    </div>
+                </div>
+
+    </section>
+
+    <section id="contantme" class="bg-light p-5">
+        <div class="container">
+            <h2 class="text-center">
+                تماس با من
+            </h2>
+            <div class="row align-items-center justify-conent-between">
+                <div class="col-md p-5">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">آدرس ایمیل</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">پیام</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-primary">ارسال پیام</button>
+                    </div>
+                </div>
+                <div class="col-md p-5">
+                    <div class="list-group list-group-flush">
+                        <a  href="#" class="list-group-item bg-light">
+                            <i class="bi bi-instagram h2 x-4"></i><span class="px-3 h6">صفحه اینستاگرام من</span>
+                        </a>
+                        <a  href="#" class="list-group-item  bg-light">
+                            <i class="bi bi-facebook h2 x-4"></i><span class="px-3 h6">صفحه فیسبوک من</span>
+                        </a>                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+</body>
+</html>
